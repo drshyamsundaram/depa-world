@@ -1,4 +1,31 @@
 # Data Ecosystem Roles and Classifications
+## Definitions Section – DEPA Framework
+
+This section outlines the **definitions of all participants** within the data ecosystem, as defined by the **DEPA (Data Empowerment and Protection Architecture) Framework**.
+
+The definitions provided herein are **general in nature**. The interpretation of legally-defined terms—such as *person*, *child*, *person with disability*, *lawful guardian*, etc.—is governed by the applicable **data protection laws in each jurisdiction**. 
+
+> **Note:** Where such laws provide a specific definition, that definition shall prevail.
+
+This framework is further supported by:
+- **Processes and guidelines** from a Self-Regulatory Organization (SRO)
+- **Technical specifications** from a Technical Standards Organization (TSO)
+
+---
+
+### Additional Notes:
+
+- Each definition is accompanied by a **simple example for clarity**.
+- Many examples feature **Rajni**, a fictional individual from rural India, to illustrate **real-world relevance and accessibility**.
+- All names used in the examples are **fictional and solely for illustrative purposes**.
+
+---
+
+### Legal Classification:
+
+For the legal classification of the terms defined across jurisdictions, please refer to the **DEPA Terminology Mapper**.
+
+---
 
 ## 1.1 Key Actors in the Data Ecosystem
 
