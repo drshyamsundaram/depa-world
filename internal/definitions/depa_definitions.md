@@ -43,7 +43,7 @@ The DEPA Foundation publishes and maintains the open-source protocols, codebase 
 An actor with authority to define, enforce, and oversee data-related regulations, ethical standards, and operational norms within a specific industry or sector.
 
 **Example:**  
-For the healthcare sector, Samyog acts as the SRO. It certifies DPI for AI (DEPA) training and inferencing use cases; along with Confidential Clean Room (CCR) Certification. It also ensures actors are DEPA compliant and facilitates dispute resolution.
+For the healthcare sector, Samyog acts as the SRO. It certifies DPI for AI (DEPA) related specifications. It also ensures actors (like Confidential Clean Room (CCR) providers are DEPA compliant and facilitates dispute resolution.
 
 ---
 
