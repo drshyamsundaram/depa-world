@@ -6,7 +6,7 @@ description: Glossary of all specialized definitions, names and phrases used in 
 
 This section outlines the **definitions of all participants** within the data ecosystem, as defined by the **DEPA (Data Empowerment and Protection Architecture) Framework**.
 
-The definitions provided herein are **general in nature**. The interpretation of legally-defined terms—such as *person*, *child*, *person with disability*, *lawful guardian*, etc.—is governed by the applicable **data protection laws in each jurisdiction**. 
+The definitions provided herein are **general in nature**. The interpretation of legally-defined terms—such as *person*, *child*, *person with disability*, *lawful guardian*, *delegatee*, *nominee* etc.—is governed by the applicable **data protection laws in each jurisdiction**. 
 
 > **Note:** Where such laws provide a specific definition, that definition shall prevail.
 
@@ -84,19 +84,6 @@ The individual to whom the personal data relates or belongs.
 **Example:**  
 Rajni is the Data Subject for data collected from her device. If her child used the device, Rajni, as guardian, is also considered a Data Subject.
 
-**Notes:**
-- Data Principal is synonmous to data subject. 
-
-- Delegatee:
-  The person appointed by the Data Principal to take actions. A delegatee can delegate this to another delegatee if Data Principal allows.
-
-- Guardian:
-  The person who is appointed by the Data Principal or by legal means to take actions on Data Principal's behalf.
-
-- Nominee:
-  The person who takes over the account of the Data Principal post his death.
-
----
 
 ### 1.1.7 Data Provider (DP)
 **Definition:**  
@@ -385,16 +372,18 @@ Customer data stored outside its country of origin.
 
 ---
 
-## 1.3 Additional Definitions
-
+## 1.3 Additional Notes on Definitions (notes)
+ 
 ### 1.3.1 Personal Data Consumer (PDC)
 **Description:**  
 This can be considered to a type of DC. This can be considered in the case of AI inferencing use cases. A Personal Data Consumer (PDC) is an entity that seeks digital data from the Data Principal, in order to provide services. The PDC places the request for the need of data with the CM which triggers the process of consent collection from the Data Principal. 
 
+**Note:** Training Data Consumers (TDP) are also similarly type of a DP.
+
 **Example:**  
 PDCs include hospitals, health technology companies, banks, financial technology companies, govt departments, employment exchanges or any entity that is interested in delivering services to the Data Principal based on his data. These entities could have their own systems or use a third party service provider to be part of the network.
 
-### 1.3.1 Personal Data Provider (PDP) 
+### 1.3.2 Personal Data Provider (PDP) 
 
 **Description:**  
 
@@ -403,3 +392,18 @@ This can be considered to a type of DP. This can be considered in the case of AI
 **Example:**  
 PDPs could be clinical establishments like hospitals, health service providers, insurance companies, banks, tax authorities, schools, Universities, Govt. Agencies, etc. These establishments act as custodians of the Data Principal’s data and they rely on Consent managers for the purpose of collecting consent from the Data Principal for the purpose of data sharing. A PDP could host its own software system or could use a third party service provider to participate in the ecosystem.
 
+**Note:** Training Data Consumers (TDC) are also similarly type of a DP.
+
+### 1.3.3 Data Principal (See Data Subject) 
+
+**Description:**  
+Data Principal is synonmous to data subject. 
+- Delegatee:
+  The person appointed by the Data Principal to take actions. A delegatee can delegate this to another delegatee if Data Principal allows.
+
+- Guardian:
+  The person who is appointed by the Data Principal or by legal means to take actions on Data Principal's behalf.
+
+- Nominee:
+  The person who takes over the account of the Data Principal post his death.
+---
