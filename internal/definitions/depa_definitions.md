@@ -383,6 +383,8 @@ This can be considered to a type of DC. This can be considered in the case of AI
 **Example:**  
 PDCs include hospitals, health technology companies, banks, financial technology companies, govt departments, employment exchanges or any entity that is interested in delivering services to the Data Principal based on his data. These entities could have their own systems or use a third party service provider to be part of the network.
 
+---
+
 ### 1.3.2 Personal Data Provider (PDP) 
 
 **Description:**  
@@ -393,6 +395,8 @@ This can be considered to a type of DP. This can be considered in the case of AI
 PDPs could be clinical establishments like hospitals, health service providers, insurance companies, banks, tax authorities, schools, Universities, Govt. Agencies, etc. These establishments act as custodians of the Data Principal’s data and they rely on Consent managers for the purpose of collecting consent from the Data Principal for the purpose of data sharing. A PDP could host its own software system or could use a third party service provider to participate in the ecosystem.
 
 **Note:** Training Data Consumers (TDC) are also similarly type of a DP.
+
+---
 
 ### 1.3.3 Data Principal (See Data Subject) 
 
