@@ -1,5 +1,8 @@
-# Data Ecosystem Roles and Classifications
-## Definitions Section – DEPA Framework
+
+---
+title: Glossary and Definitions
+description: Glossary of all specialized definitions, names and phrases used in DEPA. If you dont understand a wording you will find answers here.
+---
 
 This section outlines the **definitions of all participants** within the data ecosystem, as defined by the **DEPA (Data Empowerment and Protection Architecture) Framework**.
 
@@ -81,6 +84,18 @@ The individual to whom the personal data relates or belongs.
 **Example:**  
 Rajni is the Data Subject for data collected from her device. If her child used the device, Rajni, as guardian, is also considered a Data Subject.
 
+**Notes:**
+- Data Principal is synonmous to data subject. 
+
+- Delegatee:
+  The person appointed by the Data Principal to take actions. A delegatee can delegate this to another delegatee if Data Principal allows.
+
+- Guardian:
+  The person who is appointed by the Data Principal or by legal means to take actions on Data Principal's behalf.
+
+- Nominee:
+  The person who takes over the account of the Data Principal post his death.
+
 ---
 
 ### 1.1.7 Data Provider (DP)
@@ -153,6 +168,17 @@ A cryptographic framework within DEPA that logs provenance data for datasets, mo
 **Example:**  
 Hash records of datasets, training parameters, and models used by HealthModels are logged in the AI Chain for auditability.
 
+---
+
+### 1.1.15 Consent Manager (CM)
+**Definition:**  
+A consent manager is an entity that acts as a consent collector for the user and mediates personal data flows from DPs to DCs. 
+
+**Example:**  
+Account Aggregator (AA) System: The Account Aggregator network in Indian financial services is the most referenced real-world DEPA consent manager example. It enables users to share financial data securely by granting explicit consent through registered AA entities (like CAMS FinServ, Finvu, NADL, OneMoney. Another India example is the DigiLocker Integration: A consent manager forwards requests to users for data stored in DigiLocker, enabling privacy-protected digital data sharing.
+
+**Notes:**
+DEPA architecture allows multiple entities to play the role of a CM and each must have its own front-end (a mobile app, a Web app, or a human agent who interfaces with a mobile/Web app) for interacting with users. A CM cannot access data of users, even in encrypted form, unless it is also an DC and accesses information in that capacity. Its role is primarily to enable consent collection, based on which data is shared from DPs to DCs. It also enables discovery of DPs from which user data can be shared. Consent managers are a key mechanism for ensuring **privacy by design** in our architecture.
 ---
 
 ## 1.2 Categories of Data
@@ -358,3 +384,22 @@ Data accessed or processed across jurisdictions.
 Customer data stored outside its country of origin.
 
 ---
+
+## 1.3 Additional Definitions
+
+### 1.3.1 Personal Data Consumer (PDC)
+**Description:**  
+This can be considered to a type of DC. This can be considered in the case of AI inferencing use cases. A Personal Data Consumer (PDC) is an entity that seeks digital data from the Data Principal, in order to provide services. The PDC places the request for the need of data with the CM which triggers the process of consent collection from the Data Principal. 
+
+**Example:**  
+PDCs include hospitals, health technology companies, banks, financial technology companies, govt departments, employment exchanges or any entity that is interested in delivering services to the Data Principal based on his data. These entities could have their own systems or use a third party service provider to be part of the network.
+
+### 1.3.1 Personal Data Provider (PDP) 
+
+**Description:**  
+
+This can be considered to a type of DP. This can be considered in the case of AI training/inferencing/analytical use cases. A data provider (PDP) is an entity that collects or generates digital data and stores it in a software system. Essentially PDPs are custodians of the Data Principal’s data. 
+
+**Example:**  
+PDPs could be clinical establishments like hospitals, health service providers, insurance companies, banks, tax authorities, schools, Universities, Govt. Agencies, etc. These establishments act as custodians of the Data Principal’s data and they rely on Consent managers for the purpose of collecting consent from the Data Principal for the purpose of data sharing. A PDP could host its own software system or could use a third party service provider to participate in the ecosystem.
+
