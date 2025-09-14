@@ -1,4 +1,3 @@
-
 ---
 title: Glossary and Definitions
 description: Glossary of all specialized definitions, names and phrases used in DEPA. If you dont understand a wording you will find answers here.
@@ -148,7 +147,7 @@ Amit uses the Hridayalogic app, making him an Application User and a Data Subjec
 
 ---
 
-### 1.1.14 AI Chain (AIC)
+### 1.1.14 AI Chain (AIC)(also known as DEPA Chain)
 **Definition:**  
 A cryptographic framework within DEPA that logs provenance data for datasets, models, and inferences to support traceability and compliance.
 
@@ -404,6 +403,7 @@ Account Aggregator (AA) System: The Account Aggregator network in Indian financi
 **Notes:**
 
 DEPA architecture allows multiple entities to play the role of a CM and each must have its own front-end (a mobile app, a Web app, or a human agent who interfaces with a mobile/Web app) for interacting with users. A CM cannot access data of users, even in encrypted form, unless it is also an DC and accesses information in that capacity. Its role is primarily to enable consent collection, based on which data is shared from DPs to DCs. It also enables discovery of DPs from which user data can be shared. Consent managers are a key mechanism for ensuring **privacy by design** in our architecture.
+
 ---
 
 ### 1.3.4 Data Principal (See Data Subject) 
