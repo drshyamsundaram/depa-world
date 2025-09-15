@@ -48,19 +48,11 @@ For the legal classification of the terms defined across jurisdictions, please r
 | Application User (AU)        | Uses an application, generating new data and becoming a Data Subject.                   | Amit uses Hridayalogic app, making him an Application User and Data Subject.                                           |
 | AI Chain (AIC) / DEPA Chain  | Cryptographic framework that logs provenance data for traceability and compliance.      | Hashes of datasets, training parameters, and models used by HealthModels are logged in the AI Chain for auditability.  |
 
-
 ---
 
 ## 1.2 Categories of Data
 
-
-
-
-
-
-
 ### 1.2.1 Classification by Privacy and Accessibility
-
 
 | Category                     | Description                                                                                           | Example                                           |
 |------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------|
@@ -74,6 +66,7 @@ For the legal classification of the terms defined across jurisdictions, please r
 | Public Non-Personal Aggregate Data | Openly published summaries of non-personal data.                                                | Stock exchange average trading volumes.           |
 | Open Data                    | Freely usable under open licenses.                                                                   | WHO Global Health Observatory, OpenStreetMap.     |
 | Closed Data                  | Restricted access or licensing.                                                                      | Gartner market report, internal databases.        |
+
 ---
 
 ### 1.2.2 Classification by Origin and Quality
@@ -86,6 +79,7 @@ For the legal classification of the terms defined across jurisdictions, please r
 | Clean Data                   | Accurate and standardized.                                                                           | Validated customer address lists.                 |
 | Verified Data                | Authenticated against trusted source.                                                                | Cleared transactions by a bank.                   |
 | Falsified Data               | Tampered or fraudulent information.                                                                  | Fake research results or insurance fraud.         |
+
 ---
 
 ### 1.2.3 Classification by Relational and Structural Properties
@@ -99,7 +93,6 @@ For the legal classification of the terms defined across jurisdictions, please r
 
 ---
 
-
 ### 1.2.4 Classification by Temporal State
 
 | Temporal State               | Description                                                                                           | Example                                           |
@@ -108,10 +101,10 @@ For the legal classification of the terms defined across jurisdictions, please r
 | Data in Transit              | Being transferred.                                                                                   | Live-streams, network data packets.               |
 | Short-Lived Data             | Ephemeral, relevant briefly.                                                                         | OTP, temporary session ID.                        |
 | Long-Lived Data              | Needed long-term.                                                                                    | Census archive, contract documents.               |
+
 ---
 
 ### 1.2.5 Classification by Jurisdictional Scope
-
 
 | Jurisdictional Scope         | Description                                                                                           | Example                                           |
 |------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------|
@@ -120,21 +113,11 @@ For the legal classification of the terms defined across jurisdictions, please r
 
 ---
 
-<<<<<<< HEAD
 ## 1.3 Additional Notes on Definitions
  
-### 1.3.1 Personal Data Consumer (PDC)
-
-**Description:** 
- 
-This can be considered to a type of DC. This can be considered in the case of AI inferencing use cases. A Personal Data Consumer (PDC) is an entity that seeks digital data from the Data Principal, in order to provide services. The PDC places the request for the need of data with the CM which triggers the process of consent collection from the Data Principal. 
-=======
-## 1.3 Additional Notes on Definitions
->>>>>>> 3873750883705ade24e4f68ab34e195e29550624
-
 | Term                    | Description                                                                                               | Example                                                                                     | Notes                                                                             |
 |-------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| Personal Data Consumer (PDC) | Entity seeking digital data from the Data Principal to deliver services; requests data via CM.         | Hospitals, banks, govt. departments requesting DP data for providing services.              | Training Data Consumers (TDP) are a type of DP.                                   |
+| Personal Data Consumer (PDC) | Entity seeking digital data from the Data Principal to deliver services; requests data via CM.         | Hospitals, banks, govt. departments requesting DP data for providing services. This can be considered to a type of DC. This can be considered in the case of AI inferencing use cases. A Personal Data Consumer (PDC) is an entity that seeks digital data from the Data Principal, in order to provide services. The PDC places the request for the need of data with the CM which triggers the process of consent collection from the Data Principal.              | Training Data Consumers (TDP) are a type of DP.                                   |
 | Personal Data Provider (PDP) | Entity collecting/generating digital data, storing in software—custodian of Data Principal’s data.    | Hospitals, insurance companies, banks, govt agencies act as data custodians.                | Training Data Consumers (TDC) are a type of DP.                                   |
 | Consent Manager (CM)    | Acts as consent collector for user, mediates personal data flows from DP to DC.                          | Account Aggregator network and DigiLocker consent integrations in India.                    | Multiple CMs possible; each interfaces directly via own app/agent; CMs can't access data unless also DC.                        |
 | Data Principal          | Synonymous with Data Subject. Delegatee: Appointed agent; Guardian: Appointed for legal actions; Nominee: Takes over on death. | Delegatee can appoint another; guardian works for DP, nominee acts post-death.              | See Data Subject definition for further insight.                                   |
