@@ -1,6 +1,6 @@
 ---
-title: Glossary
-description: Glossary of all specialized names and phrases used in DEPA. If you dont understand a wording you will find answers here.
+title: Glossary and Definitions
+description: Glossary of all specialized definitions, names and phrases used in DEPA. If you dont understand a wording you will find answers here.
 ---
 
 This section outlines the **definitions of all participants** within the data ecosystem, as defined by the **DEPA (Data Empowerment and Protection Architecture) Framework**.
@@ -120,17 +120,7 @@ For the legal classification of the terms defined across jurisdictions, please r
 
 ---
 
-<<<<<<< HEAD
 ## 1.3 Additional Notes on Definitions
- 
-### 1.3.1 Personal Data Consumer (PDC)
-
-**Description:** 
- 
-This can be considered to a type of DC. This can be considered in the case of AI inferencing use cases. A Personal Data Consumer (PDC) is an entity that seeks digital data from the Data Principal, in order to provide services. The PDC places the request for the need of data with the CM which triggers the process of consent collection from the Data Principal. 
-=======
-## 1.3 Additional Notes on Definitions
->>>>>>> 3873750883705ade24e4f68ab34e195e29550624
 
 | Term                    | Description                                                                                               | Example                                                                                     | Notes                                                                             |
 |-------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
@@ -140,3 +130,4 @@ This can be considered to a type of DC. This can be considered in the case of AI
 | Data Principal          | Synonymous with Data Subject. Delegatee: Appointed agent; Guardian: Appointed for legal actions; Nominee: Takes over on death. | Delegatee can appoint another; guardian works for DP, nominee acts post-death.              | See Data Subject definition for further insight.                                   |
 
 ---
+
